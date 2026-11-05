@@ -1,5 +1,5 @@
-const MENU_CSV_URL = "/api/menu?t=" + new Date().getTime();
-const BOT_CSV_URL = "/api/bot?t=" + new Date().getTime();
+const MENU_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTE2kF8aZ19v81B347585_9oQ8u3z668853T49y3v-9U23315995o7q_4T85888/pub?output=csv";
+const BOT_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3Y2v_56V_26K28c3132B4_4v5y1Z958w0u_6w5R2Y3389Z53k68o_x_O3Y2v_56V/pub?output=csv";
 
 let STORE_DATA = { deals: [], menu: [], videos: [] };
 let cartData = [];
